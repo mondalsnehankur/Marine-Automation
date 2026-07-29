@@ -1,0 +1,44 @@
+START
+
+Load environmental dataset
+
+IF dataset is unavailable
+    Display error
+    EXIT
+
+Clean missing values
+
+Normalize required parameters
+
+Select input features
+
+Split data into:
+    Training dataset
+    Testing dataset
+
+Train machine learning model
+
+Evaluate model performance
+
+FOR each new observation
+
+    Receive environmental parameters
+
+    Predict:
+        Nitrite
+        Nitrate
+        Phosphate
+
+    Calculate Water Quality Index (WQI)
+
+    Classify water quality
+
+    Compare prediction with historical records
+
+    Generate summary and visualizations
+
+END FOR
+
+Display results
+
+END
